@@ -1,0 +1,19 @@
+body {
+    background-color: #e07a5f;
+}
+
+#nome,#habilidades {
+    font-family: chilanka;
+}
+
+#descrição, li,a {
+        font-family: purisa;
+}
+
+.list-style {
+        font-size: 20px;
+}
+
+#turismo {
+        color: pink;
+}
