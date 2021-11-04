@@ -1,13 +1,24 @@
 body {
     background-color: #e07a5f;
+    padding: 3%;
 }
 
 #nome,#habilidades {
     font-family: chilanka;
 }
 
+#nome {
+    text-align: center;
+}
+
 #descrição, li,a {
         font-family: purisa;
+}
+
+#descrição {
+    position: absolute;
+    top: 36%;
+    right: 8%;
 }
 
 .list-style {
@@ -16,4 +27,20 @@ body {
 
 #turismo {
         color: pink;
+}
+
+#foto1 {
+    float: left;
+    height: 290px;
+    padding: 10px;
+    background-color: salmon;
+}
+
+.image-container {
+    height: 310px;
+    position: relative;
+}
+
+ul li:nth-child(odd) {
+    background-color: grey;
 }
